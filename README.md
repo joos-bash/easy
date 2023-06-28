@@ -136,7 +136,7 @@ test.png|*.jpg)
 esac
 ```
 ```
-if [[$port == '80' || $port == '80']]; then
+if [[ $port == '80' || $port == '8080' ]]; then
 echo "This is HTTP"
 elif [[ $port == '22' ]]; then
 echo "This is SSH"
